@@ -8,7 +8,7 @@ opt_rest=$2
 focus_time=$(( opt_focus * 60 ));
 rest_time=$(( opt_rest * 60 ));
 
-while [ 1 ] ; do
+while [ true ] ; do
   # focus
   echo "\n## $opt_focus min time block ##\n"
   # blink1-tool -l 0 --red | exit
@@ -24,4 +24,4 @@ while [ 1 ] ; do
   curl -X POST "https://www.rescuetime.com/anapi/end_focustime?key=$API_KEY"
   open -a Slack -j
   sleep $rest_time
-done%
+done;

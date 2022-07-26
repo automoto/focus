@@ -30,4 +30,4 @@ while [ 1 ] ; do
 
   ## wait
   sleep $rest_time
-done
+done;
