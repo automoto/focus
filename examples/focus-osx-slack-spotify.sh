@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# Script for focused work
+# Script for focused work that hides slack, plays a playlist and then opens slack in focus once a time block has expired
 #
 opt_focus=$1
 opt_rest=$2

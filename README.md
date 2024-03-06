@@ -25,7 +25,9 @@ Focus time end
 
 Simply modify the contents of the `focus.sh` script with what you want your "focus" script to do. See the examples directory for inspiration.
 
-Whenever your ready to run it, simply copy the focus.sh script to your `/usr/local/bin`. You can also just run `make install` and it will do this for you.
+Whenever your ready to run it, you can run it like so: `./focus.sh 30 5`
+
+To install it to your OS and make the command available everywhere to run, simply copy the focus.sh script to your `/usr/local/bin`. You can also just run `make install` and it will do this for you.
 
 _note: you may need to `chmod +x focus.sh` to make it executable_
 
@@ -48,7 +50,7 @@ So I can simply type `focus30` or `focus60` and it starts my focused time block.
 
 Currently we have examples that work for Mac OSX (`focus-osx-slack.sh`) that:
 1. Sends a native OSX notification that a time block started
-2. Kills slack for the specified duration
+2. Kills slack for the specified duration (you might want to add some automation to update your slack status)
 3. Re-opens slack and brings it in focus it during a break period. 
 
 I also added a different example that plays a spotify playlist using the `spotify-tui` client in case your interested in playing a specific playlist during focused work. 

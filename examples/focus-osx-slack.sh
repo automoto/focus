@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# Script for focused work
+# Script for focused work that hides slack and then opens it in focus once a time block has expired
 #
 opt_focus=$1
 opt_rest=$2
