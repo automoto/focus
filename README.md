@@ -1,6 +1,6 @@
 ## Focus
 
-A simple bash script you can turn into an executable and use to minimize distractions and maximize focus. Made to be really flexible and customizable to whatever you want it to do using bash commands.
+A simple script for helping you focus. Its a flexible bash script you can turn into an executable and use to minimize distractions and maximize focus for time blocks. Its made to be really flexible and customizable to whatever you want it to do using bash commands.
 
 ### How It Works
 
